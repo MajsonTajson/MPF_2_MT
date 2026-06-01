@@ -91,14 +91,14 @@ void calfp(int frates[][3], int fac_rate)
 int main()
 {
     int frates[5][3] = {
-        { 0, 50, 0 },
+        { 0, 50, 0 },// zmiana wratości
         { 0, 40, 0 },
         { 0, 35, 0 },
         { 0, 6, 0 },
         { 0, 4, 0 }
     };
 
-    int fac_rate = 3;
+    int fac_rate = 3;//zmiana czynnika korygującego
 
     calfp(frates, fac_rate);
 
